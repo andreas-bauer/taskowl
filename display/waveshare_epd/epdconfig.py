@@ -6,7 +6,7 @@
 # *----------------
 # * | This version:   V1.2
 # * | Date        :   2022-10-29
-# * | Info        :   
+# * | Info        :
 # ******************************************************************************
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documnetation files (the "Software"), to deal
@@ -182,7 +182,7 @@ class SunriseX3:
     def spi_writebyte2(self, data):
         # for i in range(len(data)):
         #     self.SPI.writebytes([data[i]])
-        self.SPI.xfer3(data)x
+        self.SPI.xfer3(data)
 
     def module_init(self):
         if self.Flag == 0:
